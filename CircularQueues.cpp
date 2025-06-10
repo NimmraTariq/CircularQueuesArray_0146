@@ -78,3 +78,4 @@ class Queues {
             }
 
             FRONT_position = 0; 
+            while (FRONT_position <= REAR_position) {
