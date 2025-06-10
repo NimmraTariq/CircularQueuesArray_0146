@@ -94,3 +94,10 @@ int main (){
     while (true) {
         try {
             cout << "Menu\n" << endl;
+            cout << "1. Insert\n " << endl;
+            cout << "2. Delete\n " << endl;
+            cout << "3. Display\n " << endl;
+            cout << "4. Exit\n " << endl;
+            cout << "Enter your choice(1-4) : ";
+
+            cin >> ch;
