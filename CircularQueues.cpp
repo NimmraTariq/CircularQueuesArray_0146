@@ -42,3 +42,4 @@ class Queues {
         }
 
         cout << "\nThe element deleted fron the queue is : " << queue_array[FRONT] << "\n"; 
+         if (FRONT == REAR ) {
