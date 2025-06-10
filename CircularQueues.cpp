@@ -33,3 +33,7 @@ class Queues {
                  }
 
         queue_array[REAR]  = num;
+        }
+
+    void remove () {
+        if (FRONT == -1 ) { 
