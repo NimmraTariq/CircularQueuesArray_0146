@@ -63,3 +63,4 @@ class Queues {
         }
 
         cout << "\nElements in the queue are... \n";
+        cout << "\n Elements in the queue are: "; 
