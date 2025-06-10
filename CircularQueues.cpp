@@ -15,3 +15,6 @@ class Queues {
         int num;
         cout << "Enter the number: "; 
         cin >> num;
+        cout << endl;
+
+        if ((FRONT == 0 && REAR == max - 1) || (FRONT == REAR +1 )) { 
