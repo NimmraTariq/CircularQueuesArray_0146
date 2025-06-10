@@ -65,3 +65,11 @@ class Queues {
         cout << "\nElements in the queue are... \n";
         cout << "\n Elements in the queue are: "; 
         if (FRONT_position <= REAR_position) {
+            while (FRONT_position <= REAR_position) {
+                cout << queue_array[FRONT_position] << " ";
+                FRONT_position++;
+            }
+            cout << endl;
+        } 
+        else {
+            while (FRONT_position <= max -1) { 
