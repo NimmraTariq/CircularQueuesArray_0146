@@ -117,5 +117,11 @@ int main (){
                     return 0;
                 default:
                     cout << "Invalid choice. Please try again." << endl; 
+
             }
         }
+        catch (const exception &e) {
+            cout << "Check for the values entered. " << e.what() << endl;
+        }
+    }
+}
