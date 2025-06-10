@@ -30,3 +30,6 @@ class Queues {
              REAR = 0;
             else 
                 REAR++; 
+                 }
+
+        queue_array[REAR]  = num;
