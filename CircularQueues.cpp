@@ -58,3 +58,8 @@ class Queues {
         int FRONT_position = FRONT ; 
          int REAR_position = REAR;
          if (FRONT == -1) { 
+            cout << "Empty\n" <<endl;
+            return;
+        }
+
+        cout << "\nElements in the queue are... \n";
