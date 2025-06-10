@@ -14,3 +14,4 @@ class Queues {
     void insert () {
         int num;
         cout << "Enter the number: "; 
+        cin >> num;
