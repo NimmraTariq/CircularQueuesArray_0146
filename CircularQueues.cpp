@@ -106,3 +106,6 @@ int main (){
             switch (ch) {
                 case '1':
                     q.insert();
+                     break;
+                case '2':
+                    q.remove();
