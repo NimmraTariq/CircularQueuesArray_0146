@@ -51,3 +51,8 @@ class Queues {
             FRONT = 0;
             else 
                 FRONT++;
+                }
+    }
+
+    void display () {
+        int FRONT_position = FRONT ; 
