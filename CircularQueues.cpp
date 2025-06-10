@@ -109,3 +109,13 @@ int main (){
                      break;
                 case '2':
                     q.remove();
+                    break;
+                case '3':
+                    q.display(); 
+                    break;
+                case '4':
+                    return 0;
+                default:
+                    cout << "Invalid choice. Please try again." << endl; 
+            }
+        }
