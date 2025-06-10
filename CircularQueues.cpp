@@ -37,3 +37,8 @@ class Queues {
 
     void remove () {
         if (FRONT == -1 ) { 
+             cout << "Queue Overflow";
+            return;
+        }
+
+        cout << "\nThe element deleted fron the queue is : " << queue_array[FRONT] << "\n"; 
